@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b8e621b28bbfd9b4da2969da63a712ef, type: 3}
-  m_Name: Air
+  m_Name: Sand
   m_EditorClassIdentifier: 
-  blockName: Air
-  identifier: minecraft:air
-  isSolid: 0
-  back: 0
-  front: 0
-  top: 0
-  bottom: 0
-  left: 0
-  right: 0
+  blockName: Sand
+  identifier: minecraft:sand
+  isSolid: 1
+  isTransparent: 0
+  back: 10
+  front: 10
+  top: 10
+  bottom: 10
+  left: 10
+  right: 10

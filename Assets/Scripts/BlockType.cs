@@ -8,6 +8,7 @@ public class BlockType : ScriptableObject
     public string blockName;
     public string identifier;
     public bool isSolid;
+    public bool isTransparent;
 
     [Header("Textures")]
     public int back;
